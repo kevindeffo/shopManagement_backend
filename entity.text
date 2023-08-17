@@ -1,0 +1,52 @@
+###### Entities list ######
+    - Biller
+    - Customer
+    - Address
+    - Invoice
+    - Invoice-item
+    - product
+
+###### Entities Details #####
+
+Customer
+    - firstname
+    - lastname
+    - Address
+    - email
+    - phone
+
+Biller
+    - firstname
+    - lastname
+    - address
+    - email
+    - phone
+    - password
+    - case_number
+
+Address
+    - country
+    - region
+    - city
+
+Product
+    - nom
+    - prix_unitaire
+    - quantite_disponible
+
+ InvoiceItem
+    - product
+    - quantity
+    - unit_price
+    - total_amount
+
+Invoice
+    - invoiceNumber
+    - customer
+    - biller
+    - items
+    - total_amount
+    - will_be_delivered
+    - deliveryAddress
+    - shipping_costs
+    - status
